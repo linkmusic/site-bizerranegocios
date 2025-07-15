@@ -1,0 +1,13 @@
+{
+  "title": "Bizerra Negócios",
+  "tagline": "As melhores ofertas em entretenimento e jogos.",
+  "links": {
+    "group_whatsapp": "#",
+    "support_telegram": "#",
+    "support_whatsapp_number": "+5571981574664"
+  },
+  "coupon": {
+    "code": "BZR10",
+    "percentage": 0.1
+  }
+}

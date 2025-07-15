@@ -1,0 +1,199 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Claro TV",
+      "icon": "fas fa-tv",
+      "category": "Streaming",
+      "description": "Pacotes de assinatura da Claro TV, mensais e anuais.",
+      "variations": [
+        {
+          "name": "Completo (Tela) - 1 Ano",
+          "price": 70.00,
+          "details": "Acesso completo à programação da Claro TV por 1 ano. No site oficial, custa R$ 120 por mês.",
+          "important": "Garantia e suporte durante toda a validade do plano. Uso em 1 tela."
+        },
+        {
+          "name": "+ ESPN (Tela) - Mensal",
+          "price": 10.00,
+          "details": "Acesso mensal ao pacote de canais com ESPN.",
+          "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
+        },
+        {
+          "name": "+ ESPN + HBO (Tela) - Mensal",
+          "price": 13.00,
+          "details": "Acesso mensal ao pacote de canais com ESPN e HBO.",
+          "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
+        },
+        {
+          "name": "+ ESPN + Premiere (Tela) - Mensal",
+          "price": 15.00,
+          "details": "Acesso mensal ao pacote de canais com ESPN e Premiere.",
+          "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
+        },
+        {
+          "name": "+ ESPN + Telecine (Tela) - Mensal",
+          "price": 12.00,
+          "details": "Acesso mensal ao pacote de canais com ESPN e Telecine.",
+          "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Globo Play",
+      "icon": "fas fa-tv",
+      "category": "Streaming",
+      "description": "Planos de assinatura do Globo Play.",
+      "variations": [
+        {
+          "name": "+ Canais (Tela) - Mensal",
+          "price": 12.00,
+          "details": "Assista novelas, séries e canais ao vivo da Globo.",
+          "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
+        },
+        {
+          "name": "+ Combate (Tela) - Mensal",
+          "price": 10.00,
+          "details": "Ideal para fãs de luta que também querem o conteúdo da Globo.",
+          "important": "Não inclui canais ao vivo, apenas o conteúdo do Combate."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Crunchyroll Premium",
+      "icon": "fas fa-dragon",
+      "category": "Streaming",
+      "description": "Assinatura premium do Crunchyroll para assistir animes sem anúncios.",
+      "variations": [
+        {
+          "name": "Tela - Mensal",
+          "price": 10.00,
+          "details": "Acesso premium ao catálogo de animes.",
+          "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Disney Premium",
+      "icon": "fas fa-magic",
+      "category": "Streaming",
+      "description": "Acesso ao catálogo completo do Disney+.",
+      "variations": [
+        {
+          "name": "Tela - Mensal",
+          "price": 13.00,
+          "details": "Acesso a todos os filmes e séries do Disney+.",
+          "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Max",
+      "icon": "fas fa-film",
+      "category": "Streaming",
+      "description": "Acesso ao serviço de streaming da antiga HBO Max.",
+      "variations": [
+        {
+          "name": "Tela - Mensal",
+          "price": 10.00,
+          "details": "Catálogo completo com séries e filmes da Warner, HBO e Max Originals.",
+          "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "PlayPlus",
+      "icon": "fas fa-play-circle",
+      "category": "Streaming",
+      "description": "Serviço de streaming da Record.",
+      "variations": [
+        {
+          "name": "Tela - Mensal",
+          "price": 10.00,
+          "details": "Assista à programação da Record e conteúdos exclusivos.",
+          "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sky+ Completo (Anual)",
+      "icon": "fas fa-satellite-dish",
+      "category": "Streaming",
+      "description": "1 ano de acesso completo à Sky+.",
+      "variations": [
+        {
+          "name": "Tela - 1 Ano",
+          "price": 70.00,
+          "details": "Acesso completo à programação da Sky+ por 1 ano.",
+          "important": "Garantia e suporte durante toda a validade do plano. Uso em 1 tela."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Spotify Premium",
+      "icon": "fab fa-spotify",
+      "category": "Música",
+      "description": "Ouça suas músicas favoritas sem anúncios.",
+      "variations": [
+        {
+          "name": "Individual - 2 Meses",
+          "price": 15.00,
+          "details": "Acesso individual ao Spotify Premium por 2 meses.",
+          "important": "Pagamento único para 2 meses de acesso."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Vivo Play Completo (Anual)",
+      "icon": "fas fa-tv",
+      "category": "Streaming",
+      "description": "1 ano de acesso completo ao Vivo Play.",
+      "variations": [
+        {
+          "name": "Tela - 1 Ano",
+          "price": 70.00,
+          "details": "Acesso completo à programação do Vivo Play por 1 ano.",
+          "important": "Garantia e suporte durante toda a validade do plano. Uso em 1 tela."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Netflix Premium",
+      "icon": "fas fa-film",
+      "category": "Streaming",
+      "description": "Plano Premium da Netflix com qualidade 4K.",
+      "variations": [
+        {
+          "name": "Tela - Mensal",
+          "price": 15.00,
+          "details": "Qualidade Ultra HD (4K) e HDR. Assista em uma tela por vez.",
+          "important": "Renovação mensal. Suporte completo."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Xbox Game Pass Ultimate",
+      "icon": "fab fa-xbox",
+      "category": "Jogos",
+      "description": "Acesso a centenas de jogos no console, PC e nuvem.",
+      "variations": [
+        {
+          "name": "Assinatura Mensal",
+          "price": 40.00,
+          "details": "Inclui Xbox Live Gold, EA Play e acesso a jogos no dia do lançamento.",
+          "important": "Renovação mensal. Requer uma conta Xbox."
+        }
+      ]
+    }
+  ]
+}
