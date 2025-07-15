@@ -181,6 +181,21 @@
       ]
     },
     {
+      "id": 11,
+      "name": "Apple TV",
+      "icon": "fas fa-tv",
+      "category": "Streaming",
+      "description": "1 mês de acesso completo a Apple TV",
+      "variations": [
+        {
+          "name": "Tela",
+          "price": 10,
+          "details": "1 Mês de acesso completo a Apple TV",
+          "important": "1 mês de acesso completo a Apple TV"
+        }
+      ]
+    },
+    {
       "id": 12,
       "name": "Xbox Game Pass Ultimate",
       "icon": "fab fa-xbox",
@@ -267,21 +282,6 @@
           "price": 30,
           "details": "Pacote com 1.000 seguidores reais de perfis mundiais.",
           "important": "A entrega é concluída em até 48 horas."
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Apple TV",
-      "icon": "fas fa-tv",
-      "category": "Streaming",
-      "description": "1 mês de acesso completo a Apple TV",
-      "variations": [
-        {
-          "name": "Tela",
-          "price": 10,
-          "details": "1 Mês de acesso completo a Apple TV",
-          "important": "1 mês de acesso completo a Apple TV"
         }
       ]
     }
