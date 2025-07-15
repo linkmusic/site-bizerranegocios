@@ -1,12 +1,4 @@
 {
-  "title": "Bizerra Negócios",
-  "tagline": "As melhores ofertas em entretenimento e jogos.",
-  "links": {
-    "group_whatsapp": "https://chat.whatsapp.com/D3LzgVOzT3q42DExw6bivp",
-    "support_telegram": "https://t.me/wesleybizerrayt",
-    "group_telegram": "https://t.me/WesleyBizerraAPPS",
-    "support_whatsapp_number": "+5571981574664"
-  },
   "coupon": {
     "code": "BZR10",
     "percentage": 0.1
@@ -16,9 +8,20 @@
     "background": "#121212",
     "text": "#ffffff"
   },
+  "adsense.head_script": "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4548051124645784\"\n     crossorigin=\"anonymous\"></script>",
   "adsense": {
     "head_script": "",
     "ad_unit_1": "",
     "ad_unit_2": ""
+  },
+  "tagline": "As melhores ofertas em entretenimento e jogos.",
+  "adsense.ad_unit_1": "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4548051124645784\"\n     crossorigin=\"anonymous\"></script>",
+  "adsense.ad_unit_2": "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4548051124645784\"\n     crossorigin=\"anonymous\"></script>",
+  "title": "Bizerra Negócios",
+  "links": {
+    "group_whatsapp": "https://chat.whatsapp.com/D3LzgVOzT3q42DExw6bivp",
+    "support_telegram": "https://t.me/wesleybizerrayt",
+    "group_telegram": "https://t.me/WesleyBizerraAPPS",
+    "support_whatsapp_number": "+5571981574664"
   }
 }
