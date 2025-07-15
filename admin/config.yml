@@ -18,12 +18,12 @@ collections:
         fields:
           - { name: body, widget: markdown, readonly: true }
 
-  - name: "configuracoes"
-    label: "Configurações do Site"
-    description: "Edite aqui as configurações gerais e a lista de produtos."
+  - name: "config_gerais"
+    label: "Configurações Gerais"
+    description: "Edite aqui as informações gerais do site, como título, links e cupom."
     files:
       - name: "settings"
-        label: "Configurações Gerais"
+        label: "Configurações do Site"
         file: "_data/settings.json"
         fields:
           - { label: "Título Principal do Site", name: "title", widget: "string" }
@@ -43,16 +43,20 @@ collections:
               - { label: "Código do Cupom (ex: BZR10)", name: "code", widget: "string" }
               - { label: "Percentagem de Desconto (ex: 0.1 para 10%)", name: "percentage", widget: "number" }
 
-      - name: "products"
-        label: "Produtos e Assinaturas"
+  - name: "produtos"
+    label: "Produtos e Assinaturas"
+    description: "Adicione, edite ou remova produtos e os seus planos."
+    files:
+      - name: "lista_produtos"
+        label: "Lista de Produtos"
         file: "_data/products.json"
         fields:
           - name: "items"
-            label: "Lista de Produtos"
+            label: "Produtos"
             widget: "list"
             summary: "{{fields.name}}"
             fields:
-              - { label: "ID (número único)", name: "id", widget: "number" }
+              - { label: "ID (número único, não repita)", name: "id", widget: "number" }
               - { label: "Nome do Produto", name: "name", widget: "string" }
               - { label: "Ícone (ex: fas fa-tv)", name: "icon", widget: "string" }
               - { label: "Categoria", name: "category", widget: "string" }
