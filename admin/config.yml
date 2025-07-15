@@ -28,6 +28,7 @@ collections:
         fields:
           - { label: "Título Principal do Site", name: "title", widget: "string" }
           - { label: "Slogan abaixo do Título", name: "tagline", widget: "string" }
+          - { label: "Cor Principal do Tema (ex: #0088cc)", name: "primary_color", widget: "string" }
           - label: "Links de Suporte"
             name: "links"
             widget: "object"

@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     :root {
-      --primary-color: #0088cc; /* Azul Telegram */
+      --primary-color: #0088cc; /* Cor Padrão */
       --dark-bg: #121212;
       --card-bg: #1e1e1e;
       --text-color: #ffffff;
@@ -49,7 +49,7 @@
     .hidden { display: none; }
     .btn { display: inline-block; padding: 0.8rem 1.5rem; border-radius: 30px; font-weight: bold; cursor: pointer; border: none; transition: all 0.3s ease; text-align: center; }
     .btn-primary { background: var(--primary-color); color: #ffffff; }
-    .btn-primary:hover { background: #0077b3; }
+    .btn-primary:hover { filter: brightness(90%); }
     .btn-success { background: var(--success-color); color: white; }
     .btn-success:hover { background: #20b955; }
     .btn-danger { background: var(--danger-color); color: white; }
@@ -83,29 +83,10 @@
     .alert { position: fixed; bottom: 100px; right: 20px; padding: 1rem; border-radius: 8px; color: white; z-index: 1000; box-shadow: 0 4px 10px rgba(0,0,0,0.3); animation: fadeIn 0.3s ease; }
     .alert-success { background: var(--success-color); }
     .alert-danger { background: var(--danger-color); }
-
-    /* Estilo do Rodapé */
-    .site-footer {
-      background: #101010;
-      text-align: center;
-      padding: 1.5rem 1rem;
-      margin-top: 2rem;
-      border-top: 1px solid var(--gray-color);
-    }
-    .site-footer p {
-      margin: 0;
-      font-size: 0.9rem;
-      color: var(--light-gray);
-    }
-    .site-footer a {
-      color: var(--primary-color);
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .site-footer a:hover {
-      text-decoration: underline;
-    }
-
+    .site-footer { background: #101010; text-align: center; padding: 1.5rem 1rem; margin-top: 2rem; border-top: 1px solid var(--gray-color); }
+    .site-footer p { margin: 0; font-size: 0.9rem; color: var(--light-gray); }
+    .site-footer a { color: var(--primary-color); font-weight: bold; text-decoration: none; }
+    .site-footer a:hover { text-decoration: underline; }
     @media (max-width: 768px) { body { padding-top: 70px; padding-bottom: 90px; } .product-grid { grid-template-columns: 1fr; } .cart-dropdown { width: calc(100% - 2rem); left: 1rem; right: 1rem; max-height: 60vh; } h1 { font-size: 1.6rem; } h2 { font-size: 1.3rem; } .product-card { padding: 1rem; } .product-card i { font-size: 1.6rem; } .variation-btn { padding: 0.7rem; } .quantity-btn { width: 35px; height: 35px; } .quantity-input { width: 50px; } .floating-buttons-container { bottom: 10px; right: 10px; } .floating-button { width: 45px; height: 45px; font-size: 1.1rem; } .floating-button .tooltip { font-size: 0.8rem; right: 50px; padding: 0.4rem 0.8rem; } .alert { bottom: 80px; right: 15px; font-size: 0.9rem; } }
     @media (max-width: 480px) { .floating-cart { padding: 0.8rem; } .cart-toggle { padding: 0.4rem 0.8rem; font-size: 0.9rem; } .cart-count { width: 20px; height: 20px; font-size: 0.7rem; } .product-detail { padding: 0.8rem; } .selected-variation { padding: 0.7rem; } .checkout-btn { padding: 0.7rem; font-size: 0.9rem; } .floating-button { width: 40px; height: 40px; font-size: 1rem; } }
     @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
@@ -345,6 +326,11 @@
             
             [settings, { items }] = await Promise.all([settingsPromise, productsPromise]);
             products = items;
+
+            // Aplica a cor do tema
+            if (settings.primary_color) {
+                document.documentElement.style.setProperty('--primary-color', settings.primary_color);
+            }
 
             document.title = settings.title || "Bizerra Negócios";
             document.getElementById("site-title").innerHTML = `<i class="fas fa-briefcase"></i> ${settings.title}`;
