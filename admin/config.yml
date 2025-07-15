@@ -86,6 +86,6 @@ collections:
         label: "Códigos de Anúncio"
         file: "_data/settings.json"
         fields:
-          - { label: "Script do Cabeçalho (da tag <head>)", name: ["adsense", "head_script"], widget: "text" }
-          - { label: "Código do Bloco de Anúncios 1 (ex: Banner no topo)", name: ["adsense", "ad_unit_1"], widget: "text" }
-          - { label: "Código do Bloco de Anúncios 2 (ex: Banner no rodapé)", name: ["adsense", "ad_unit_2"], widget: "text" }
+          - { label: "Script do Cabeçalho (da tag <head>)", name: "adsense.head_script", widget: "text" }
+          - { label: "Código do Bloco de Anúncios 1 (ex: Banner no topo)", name: "adsense.ad_unit_1", widget: "text" }
+          - { label: "Código do Bloco de Anúncios 2 (ex: Banner no rodapé)", name: "adsense.ad_unit_2", widget: "text" }
