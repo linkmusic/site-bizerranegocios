@@ -83,6 +83,29 @@
     .alert { position: fixed; bottom: 100px; right: 20px; padding: 1rem; border-radius: 8px; color: white; z-index: 1000; box-shadow: 0 4px 10px rgba(0,0,0,0.3); animation: fadeIn 0.3s ease; }
     .alert-success { background: var(--success-color); }
     .alert-danger { background: var(--danger-color); }
+
+    /* Estilo do Rodapé */
+    .site-footer {
+      background: #101010;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 2rem;
+      border-top: 1px solid var(--gray-color);
+    }
+    .site-footer p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: var(--light-gray);
+    }
+    .site-footer a {
+      color: var(--primary-color);
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .site-footer a:hover {
+      text-decoration: underline;
+    }
+
     @media (max-width: 768px) { body { padding-top: 70px; padding-bottom: 90px; } .product-grid { grid-template-columns: 1fr; } .cart-dropdown { width: calc(100% - 2rem); left: 1rem; right: 1rem; max-height: 60vh; } h1 { font-size: 1.6rem; } h2 { font-size: 1.3rem; } .product-card { padding: 1rem; } .product-card i { font-size: 1.6rem; } .variation-btn { padding: 0.7rem; } .quantity-btn { width: 35px; height: 35px; } .quantity-input { width: 50px; } .floating-buttons-container { bottom: 10px; right: 10px; } .floating-button { width: 45px; height: 45px; font-size: 1.1rem; } .floating-button .tooltip { font-size: 0.8rem; right: 50px; padding: 0.4rem 0.8rem; } .alert { bottom: 80px; right: 15px; font-size: 0.9rem; } }
     @media (max-width: 480px) { .floating-cart { padding: 0.8rem; } .cart-toggle { padding: 0.4rem 0.8rem; font-size: 0.9rem; } .cart-count { width: 20px; height: 20px; font-size: 0.7rem; } .product-detail { padding: 0.8rem; } .selected-variation { padding: 0.7rem; } .checkout-btn { padding: 0.7rem; font-size: 0.9rem; } .floating-button { width: 40px; height: 40px; font-size: 1rem; } }
     @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
@@ -144,6 +167,11 @@
       <a class="back-link" onclick="goHome()"><i class="fas fa-arrow-left"></i> Voltar para produtos</a>
     </div>
   </div>
+
+  <footer class="site-footer">
+    <p>Feito por <a href="https://trocodev.site/" target="_blank" rel="noopener noreferrer">Troço Dev</a></p>
+  </footer>
+
   <div class="floating-buttons-container">
     <div class="floating-button group-btn" onclick="openGroupWhatsApp()"><i class="fab fa-whatsapp"></i><span class="tooltip">Grupo WhatsApp</span></div>
     <div class="floating-button telegram-btn" onclick="openGroupTelegram()"><i class="fab fa-telegram"></i><span class="tooltip">Grupo Telegram</span></div>
