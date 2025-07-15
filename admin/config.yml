@@ -77,3 +77,15 @@ collections:
                   - { label: "Preço", name: "price", widget: "number" }
                   - { label: "Detalhes", name: "details", widget: "text" }
                   - { label: "Nota Importante", name: "important", widget: "text" }
+  
+  - name: "monetizacao"
+    label: "Monetização (Google AdSense)"
+    description: "Cole aqui os códigos de anúncio do Google AdSense."
+    files:
+      - name: "adsense"
+        label: "Códigos de Anúncio"
+        file: "_data/settings.json"
+        fields:
+          - { label: "Script do Cabeçalho (da tag <head>)", name: ["adsense", "head_script"], widget: "text" }
+          - { label: "Código do Bloco de Anúncios 1 (ex: Banner no topo)", name: ["adsense", "ad_unit_1"], widget: "text" }
+          - { label: "Código do Bloco de Anúncios 2 (ex: Banner no rodapé)", name: ["adsense", "ad_unit_2"], widget: "text" }

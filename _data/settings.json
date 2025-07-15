@@ -15,5 +15,10 @@
     "primary": "#0088cc",
     "background": "#121212",
     "text": "#ffffff"
+  },
+  "adsense": {
+    "head_script": "",
+    "ad_unit_1": "",
+    "ad_unit_2": ""
   }
 }

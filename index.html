@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bizerra Negócios - As melhores ofertas</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <div id="adsense-head-script"></div>
   <style>
     :root {
       --primary-color: #0088cc; /* Cor Padrão */
@@ -19,6 +20,7 @@
       --category-color: #FF5722;
       --telegram-color: #0088cc;
     }
+    .ad-container { text-align: center; margin: 1rem 0; }
     * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
     body { background-color: var(--dark-bg); color: var(--text-color); font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; padding-top: 80px; padding-bottom: 100px; }
     .container { max-width: 800px; margin: 0 auto; padding: 0 1rem; }
@@ -127,6 +129,7 @@
         <h1 id="site-title"><i class="fas fa-tv"></i> </h1>
         <p id="site-tagline"></p>
       </header>
+      <div id="ad-unit-1" class="ad-container"></div>
       <div class="category-tabs" id="categoryTabs"></div>
       <div id="productsByCategory"></div>
     </div>
@@ -148,6 +151,8 @@
       <a class="back-link" onclick="goHome()"><i class="fas fa-arrow-left"></i> Voltar para produtos</a>
     </div>
   </div>
+
+  <div id="ad-unit-2" class="ad-container"></div>
 
   <footer class="site-footer">
     <p>Feito por <a href="https://trocodev.site/" target="_blank" rel="noopener noreferrer">Troço Dev</a></p>
@@ -332,6 +337,13 @@
                 document.documentElement.style.setProperty('--primary-color', settings.theme_colors.primary);
                 document.documentElement.style.setProperty('--dark-bg', settings.theme_colors.background);
                 document.documentElement.style.setProperty('--text-color', settings.theme_colors.text);
+            }
+
+            // Insere os códigos do AdSense
+            if (settings.adsense) {
+                if(settings.adsense.head_script) document.getElementById('adsense-head-script').innerHTML = settings.adsense.head_script;
+                if(settings.adsense.ad_unit_1) document.getElementById('ad-unit-1').innerHTML = settings.adsense.ad_unit_1;
+                if(settings.adsense.ad_unit_2) document.getElementById('ad-unit-2').innerHTML = settings.adsense.ad_unit_2;
             }
 
             document.title = settings.title || "Bizerra Negócios";

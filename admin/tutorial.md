@@ -6,72 +6,64 @@ Este guia foi criado para o ajudar a gerir as informações e produtos da sua lo
 
 ---
 
-#### **1. Como Aceder ao Painel**
+#### **1. Acesso e Secções do Painel**
 
-Para começar, aceda ao painel de administração através do seguinte link:
-
-[https://bizerra.shop/admin/](https://bizerra.shop/admin/)
-
-Você receberá um convite por e-mail para criar a sua senha de acesso. Após o primeiro acesso, guarde este link e as suas credenciais (e-mail e senha) para futuros acessos.
-
----
-
-#### **2. A Página Inicial**
-
-Ao entrar, você verá o menu principal à esquerda. É aqui que toda a magia acontece.
-
-Você terá as seguintes secções:
-* **Guia de Uso do Painel:** Onde você está agora.
-* **Configurações Gerais:** Onde pode editar as informações e cores do site.
-* **Produtos e Assinaturas:** Onde pode gerir a sua lista de produtos.
+* **Acesso:** Use o link [https://bizerra.shop/admin/](https://bizerra.shop/admin/) e as suas credenciais (e-mail e senha) para entrar.
+* **Guia de Uso:** Onde você está agora.
+* **Configurações Gerais:** Para editar informações, links e cores do site.
+* **Produtos e Assinaturas:** Para gerir a sua lista de produtos.
+* **Monetização (Google AdSense):** Para inserir os códigos de anúncio.
 
 ---
 
-#### **3. Como Editar as Configurações Gerais do Site**
+#### **2. Configurações Gerais**
 
-Nesta secção, você pode alterar o nome do site, o slogan, os links, o cupom de desconto e as cores do tema.
+Aqui, você pode alterar:
+* **Título e Slogan:** O nome e a frase de efeito do seu site.
+* **Cores do Tema:** Use a paleta para escolher as cores do site.
+    * **Cor Principal:** Usada em destaques, botões e links.
+    * **Cor de Fundo:** A cor escura de fundo do site.
+    * **Cor do Texto:** A cor clara principal do texto.
+* **Links de Suporte e Cupom de Desconto.**
 
-1.  No menu à esquerda, clique em **"Configurações Gerais"**.
-2.  Uma página com os seguintes campos editáveis irá aparecer:
-    * **Título e Slogan:** O nome e a frase de efeito do seu site.
-    * **Cores do Tema:** Use a paleta para escolher as cores do site.
-        * **Cor Principal:** Usada em destaques, botões e links.
-        * **Cor de Fundo:** A cor escura de fundo do site.
-        * **Cor do Texto:** A cor clara principal do texto.
-    * **Links de Suporte:** Campos para os seus links de WhatsApp e Telegram.
-    * **Cupom de Desconto:** Onde pode definir um código e o valor do desconto.
-3.  Após fazer as alterações, clique no botão azul **"Publicar"** no topo da página e, em seguida, em **"Publicar agora"** para guardar e aplicar as mudanças no site.
+Após qualquer alteração, clique sempre em **"Publicar"** no topo da página.
 
 ---
 
-#### **4. Como Gerir os seus Produtos**
+#### **3. Gestão de Produtos**
 
-1.  No menu à esquerda, clique em **"Produtos e Assinaturas"**.
+* **Editar:** Clique sobre um produto para alterar o seu Nome, Ícone, Preço, etc.
+* **Adicionar:** Clique no botão "Adicionar novo" para criar um novo produto.
+* **Remover:** Entre na edição de um produto e clique no botão "Excluir".
 
 ##### **Como Adicionar um Ícone ao Produto**
-O campo "Ícone" usa a biblioteca Font Awesome. Para escolher um ícone:
-1.  Acesse a galeria de ícones gratuitos aqui: [**Font Awesome Free Icons**](https://fontawesome.com/v6/search?o=r&m=free)
+O campo "Ícone" usa a biblioteca Font Awesome. Para escolher um:
+1.  Acesse a galeria: [**Font Awesome Free Icons**](https://fontawesome.com/v6/search?o=r&m=free)
 2.  Procure pelo ícone que deseja (ex: "film", "tv", "spotify").
-3.  Clique no ícone escolhido.
-4.  Copie o seu nome, que aparece no topo da página (ex: `fa-film`).
-5.  Cole no campo "Ícone" adicionando o prefixo `fas ` ou `fab ` na frente.
-    * Para ícones normais, use `fas fa-film`.
-    * Para ícones de marcas (como Spotify, Amazon), use `fab fa-spotify`.
-
-##### **Para Editar um Produto Existente:**
-
-1.  Na lista de produtos, clique no nome do produto que deseja editar.
-2.  Altere os campos que precisar, como Nome ou Ícone.
-3.  Para editar os planos, role para baixo até **"Variações do Produto (planos)"**. Clique sobre um plano para expandir e alterar o seu nome, preço e detalhes.
-4.  Lembre-se sempre de clicar em **"Publicar"** no final para salvar as alterações.
-
-##### **Para Adicionar um Novo Produto:**
-
-1.  Na página "Produtos e Assinaturas", clique no botão verde **"Adicionar novo Produtos"**.
-2.  Preencha todos os campos do novo produto.
-3.  Para adicionar os planos, clique no botão **"+ Adicionar"** dentro da secção "Variações do Produto (planos)".
-4.  Quando terminar, clique em **"Publicar"**.
+3.  Clique no ícone escolhido e copie o seu nome (ex: `fa-film`).
+4.  Cole no campo "Ícone" do painel, adicionando `fas` ou `fab` na frente.
+    * Ícones normais: `fas fa-film`
+    * Ícones de marcas: `fab fa-spotify`
 
 ---
 
-É tudo! O painel foi desenhado para ser intuitivo. Se tiver alguma dúvida, pode sempre entrar em contato.
+#### **4. Monetização com Google AdSense**
+
+Para exibir anúncios, você precisa de uma conta aprovada no [Google AdSense](https://www.google.com/adsense/start/).
+
+1.  No painel do seu site, vá para a aba **"Monetização (Google AdSense)"**.
+2.  Você verá três campos para preencher:
+
+##### **a) Script do Cabeçalho**
+* No AdSense, após adicionar o seu site, a Google fornecerá um código de verificação. Ele começa com `<script...` e contém o seu ID de publicador (`ca-pub-xxxxxxxxxxxxxxxx`).
+* Copie todo este código.
+* Cole-o no campo **"Script do Cabeçalho (...)"** no seu painel.
+
+##### **b) Códigos dos Blocos de Anúncios**
+* No AdSense, vá para **Anúncios > Por bloco de anúncios** e crie um novo bloco (recomendamos "Anúncios de display").
+* Configure o tamanho (ex: responsivo) e dê um nome a ele.
+* Clique em "Criar". O AdSense irá gerar um código que também começa com `<script...`.
+* Copie todo este código.
+* Cole-o no campo **"Código do Bloco de Anúncios 1"** ou **"2"**. Você pode usar os dois para ter anúncios em locais diferentes do site.
+
+3.  Após colar os códigos, clique em **"Publicar"**. Os anúncios podem levar algum tempo para começar a aparecer no site.
