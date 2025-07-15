@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bizerra Negócios - As melhores ofertas</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9968512093517440"
-     crossorigin="anonymous"></script>
-
+  <div id="adsense-head-script"></div>
   <style>
     :root {
       --primary-color: #0088cc; /* Cor Padrão */
@@ -340,6 +337,12 @@
                 document.documentElement.style.setProperty('--primary-color', settings.theme_colors.primary);
                 document.documentElement.style.setProperty('--dark-bg', settings.theme_colors.background);
                 document.documentElement.style.setProperty('--text-color', settings.theme_colors.text);
+            }
+
+            // Insere os códigos do AdSense (se configurado no painel)
+            if (settings.adsense) {
+                if(settings.adsense.ad_unit_1) document.getElementById('ad-unit-1').innerHTML = settings.adsense.ad_unit_1;
+                if(settings.adsense.ad_unit_2) document.getElementById('ad-unit-2').innerHTML = settings.adsense.ad_unit_2;
             }
 
             document.title = settings.title || "Bizerra Negócios";
