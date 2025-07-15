@@ -194,6 +194,81 @@
           "important": "Renovação mensal. Requer uma conta Xbox."
         }
       ]
+    },
+    {
+      "id": 12,
+      "name": "Inscritos para YouTube",
+      "icon": "fab fa-youtube",
+      "category": "Marketing Digital",
+      "description": "Aumente o número de inscritos no seu canal do YouTube.",
+      "variations": [
+        {
+          "name": "1.000 Inscritos",
+          "price": 52.00,
+          "details": "Pacote com 1.000 inscritos para o seu canal.",
+          "important": "A entrega é concluída em até 48 horas."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Visualizações para YouTube",
+      "icon": "fas fa-eye",
+      "category": "Marketing Digital",
+      "description": "Aumente as visualizações dos seus vídeos no YouTube.",
+      "variations": [
+        {
+          "name": "1.000 Visualizações",
+          "price": 20.00,
+          "details": "Pacote com 1.000 visualizações para um vídeo.",
+          "important": "A entrega é concluída em até 48 horas."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Likes para YouTube",
+      "icon": "fas fa-thumbs-up",
+      "category": "Marketing Digital",
+      "description": "Aumente os likes dos seus vídeos no YouTube.",
+      "variations": [
+        {
+          "name": "1.000 Likes",
+          "price": 15.00,
+          "details": "Pacote com 1.000 likes para um vídeo.",
+          "important": "A entrega é concluída em até 48 horas."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Membros para Telegram",
+      "icon": "fab fa-telegram",
+      "category": "Marketing Digital",
+      "description": "Aumente o número de membros em grupos ou canais do Telegram.",
+      "variations": [
+        {
+          "name": "1.000 Membros",
+          "price": 15.00,
+          "details": "Pacote com 1.000 novos membros para seu grupo ou canal.",
+          "important": "A entrega é concluída em até 48 horas."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Seguidores para Instagram",
+      "icon": "fab fa-instagram",
+      "category": "Marketing Digital",
+      "description": "Aumente o seu número de seguidores no Instagram.",
+      "variations": [
+        {
+          "name": "1.000 Seguidores (Reais Mundiais)",
+          "price": 30.00,
+          "details": "Pacote com 1.000 seguidores reais de perfis mundiais.",
+          "important": "A entrega é concluída em até 48 horas."
+        }
+      ]
     }
   ]
 }
