@@ -22,50 +22,56 @@ Ao entrar, você verá o menu principal à esquerda. É aqui que toda a magia ac
 
 Você terá as seguintes secções:
 * **Guia de Uso do Painel:** Onde você está agora.
-* **Configurações Gerais:** Onde pode editar as informações gerais do site.
+* **Configurações Gerais:** Onde pode editar as informações e cores do site.
 * **Produtos e Assinaturas:** Onde pode gerir a sua lista de produtos.
 
 ---
 
 #### **3. Como Editar as Configurações Gerais do Site**
 
-Nesta secção, você pode alterar o nome do site, o slogan, os links de contato e o cupom de desconto.
+Nesta secção, você pode alterar o nome do site, o slogan, os links, o cupom de desconto e as cores do tema.
 
 1.  No menu à esquerda, clique em **"Configurações Gerais"**.
 2.  Uma página com os seguintes campos editáveis irá aparecer:
-    * **Título Principal do Site:** O nome que aparece no topo da sua loja.
-    * **Slogan abaixo do Título:** A frase que aparece sob o título.
+    * **Título e Slogan:** O nome e a frase de efeito do seu site.
+    * **Cores do Tema:** Use a paleta para escolher as cores do site.
+        * **Cor Principal:** Usada em destaques, botões e links.
+        * **Cor de Fundo:** A cor escura de fundo do site.
+        * **Cor do Texto:** A cor clara principal do texto.
     * **Links de Suporte:** Campos para os seus links de WhatsApp e Telegram.
-    * **Cupom de Desconto:** Onde pode definir um código de cupom (ex: BZR10) e a percentagem de desconto (ex: 0.1 para 10%).
+    * **Cupom de Desconto:** Onde pode definir um código e o valor do desconto.
 3.  Após fazer as alterações, clique no botão azul **"Publicar"** no topo da página e, em seguida, em **"Publicar agora"** para guardar e aplicar as mudanças no site.
 
 ---
 
 #### **4. Como Gerir os seus Produtos**
 
-Esta é a parte que você mais usará. Aqui pode adicionar, editar ou remover produtos da sua loja.
-
 1.  No menu à esquerda, clique em **"Produtos e Assinaturas"**.
+
+##### **Como Adicionar um Ícone ao Produto**
+O campo "Ícone" usa a biblioteca Font Awesome. Para escolher um ícone:
+1.  Acesse a galeria de ícones gratuitos aqui: [**Font Awesome Free Icons**](https://fontawesome.com/v6/search?o=r&m=free)
+2.  Procure pelo ícone que deseja (ex: "film", "tv", "spotify").
+3.  Clique no ícone escolhido.
+4.  Copie o seu nome, que aparece no topo da página (ex: `fa-film`).
+5.  Cole no campo "Ícone" adicionando o prefixo `fas ` ou `fab ` na frente.
+    * Para ícones normais, use `fas fa-film`.
+    * Para ícones de marcas (como Spotify, Amazon), use `fab fa-spotify`.
 
 ##### **Para Editar um Produto Existente:**
 
-1.  Na lista de produtos que aparece, simplesmente clique no nome do produto que deseja editar.
-2.  Você pode alterar o **Nome**, **Ícone**, **Categoria** e a **Descrição**.
-3.  Para editar os planos (preços e detalhes), role para baixo até **"Variações do Produto (planos)"**. Clique sobre um plano para expandir e alterar o seu nome, preço, detalhes e a nota importante.
+1.  Na lista de produtos, clique no nome do produto que deseja editar.
+2.  Altere os campos que precisar, como Nome ou Ícone.
+3.  Para editar os planos, role para baixo até **"Variações do Produto (planos)"**. Clique sobre um plano para expandir e alterar o seu nome, preço e detalhes.
 4.  Lembre-se sempre de clicar em **"Publicar"** no final para salvar as alterações.
 
 ##### **Para Adicionar um Novo Produto:**
 
-1.  Na página "Produtos e Assinaturas", clique no botão verde **"Adicionar novo Produtos"** (o nome pode variar).
-2.  Preencha todos os campos do novo produto (Nome, Ícone, etc.).
-3.  Para adicionar os planos, clique no botão **"+ Adicionar"** dentro da secção "Variações do Produto (planos)". Preencha as informações de cada plano que você quer oferecer.
-4.  Quando terminar, clique em **"Publicar"** para que o novo produto apareça na sua loja.
-
-##### **Para Remover um Produto:**
-
-1.  Entre na página de edição do produto que deseja remover (seguindo os passos para editar).
-2.  No final da página, você encontrará um botão vermelho **"Excluir"**. Clique nele para remover o produto permanentemente. **Atenção:** esta ação não pode ser desfeita.
+1.  Na página "Produtos e Assinaturas", clique no botão verde **"Adicionar novo Produtos"**.
+2.  Preencha todos os campos do novo produto.
+3.  Para adicionar os planos, clique no botão **"+ Adicionar"** dentro da secção "Variações do Produto (planos)".
+4.  Quando terminar, clique em **"Publicar"**.
 
 ---
 
-É tudo! O painel foi desenhado para ser intuitivo. Sinta-se à vontade para explorar. Se tiver alguma dúvida, pode sempre entrar em contato.
+É tudo! O painel foi desenhado para ser intuitivo. Se tiver alguma dúvida, pode sempre entrar em contato.

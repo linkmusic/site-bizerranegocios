@@ -20,7 +20,7 @@ collections:
 
   - name: "config_gerais"
     label: "Configurações Gerais"
-    description: "Edite aqui as informações gerais do site, como título, links e cupom."
+    description: "Edite aqui as informações gerais do site, como título, links e cores."
     files:
       - name: "settings"
         label: "Configurações do Site"
@@ -28,7 +28,13 @@ collections:
         fields:
           - { label: "Título Principal do Site", name: "title", widget: "string" }
           - { label: "Slogan abaixo do Título", name: "tagline", widget: "string" }
-          - { label: "Cor Principal do Tema (ex: #0088cc)", name: "primary_color", widget: "string" }
+          - label: "Cores do Tema"
+            name: "theme_colors"
+            widget: "object"
+            fields:
+              - { label: "Cor Principal (Destaques, botões, links)", name: "primary", widget: "color" }
+              - { label: "Cor de Fundo (Cor escura do site)", name: "background", widget: "color" }
+              - { label: "Cor do Texto (Cor clara do site)", name: "text", widget: "color" }
           - label: "Links de Suporte"
             name: "links"
             widget: "object"

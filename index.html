@@ -8,9 +8,9 @@
   <style>
     :root {
       --primary-color: #0088cc; /* Cor Padrão */
-      --dark-bg: #121212;
+      --dark-bg: #121212;     /* Cor Padrão */
+      --text-color: #ffffff;   /* Cor Padrão */
       --card-bg: #1e1e1e;
-      --text-color: #ffffff;
       --success-color: #25D366;
       --danger-color: #ff4444;
       --gray-color: #333333;
@@ -327,9 +327,11 @@
             [settings, { items }] = await Promise.all([settingsPromise, productsPromise]);
             products = items;
 
-            // Aplica a cor do tema
-            if (settings.primary_color) {
-                document.documentElement.style.setProperty('--primary-color', settings.primary_color);
+            // Aplica as cores do tema
+            if (settings.theme_colors) {
+                document.documentElement.style.setProperty('--primary-color', settings.theme_colors.primary);
+                document.documentElement.style.setProperty('--dark-bg', settings.theme_colors.background);
+                document.documentElement.style.setProperty('--text-color', settings.theme_colors.text);
             }
 
             document.title = settings.title || "Bizerra Negócios";
