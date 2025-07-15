@@ -8,6 +8,16 @@ media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
+  - name: "tutorial"
+    label: "Guia de Uso do Painel"
+    description: "Um guia completo para o ajudar a gerir o seu site."
+    files:
+      - name: "guia"
+        label: "Tutorial"
+        file: "admin/tutorial.md"
+        fields:
+          - { name: body, widget: markdown, readonly: true }
+
   - name: "configuracoes"
     label: "Configurações do Site"
     description: "Edite aqui as configurações gerais e a lista de produtos."
@@ -24,6 +34,7 @@ collections:
             fields:
               - { label: "Link do Grupo WhatsApp", name: "group_whatsapp", widget: "string" }
               - { label: "Link do Suporte Telegram", name: "support_telegram", widget: "string" }
+              - { label: "Link do Grupo Telegram", name: "group_telegram", widget: "string" }
               - { label: "Número do Suporte WhatsApp (com +55)", name: "support_whatsapp_number", widget: "string" }
           - label: "Cupom de Desconto"
             name: "coupon"
