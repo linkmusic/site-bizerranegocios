@@ -18,11 +18,12 @@ Você receberá um convite por e-mail para criar a sua senha de acesso. Após o 
 
 #### **2. A Página Inicial**
 
-Ao entrar, você verá o menu principal à esquerda, chamado **"Coleções"**. É aqui que toda a magia acontece.
+Ao entrar, você verá o menu principal à esquerda. É aqui que toda a magia acontece.
 
 Você terá as seguintes secções:
 * **Guia de Uso do Painel:** Onde você está agora.
-* **Configurações do Site:** Onde pode editar as informações gerais e a lista de produtos.
+* **Configurações Gerais:** Onde pode editar as informações gerais do site.
+* **Produtos e Assinaturas:** Onde pode gerir a sua lista de produtos.
 
 ---
 
@@ -30,14 +31,13 @@ Você terá as seguintes secções:
 
 Nesta secção, você pode alterar o nome do site, o slogan, os links de contato e o cupom de desconto.
 
-1.  No menu à esquerda, clique em **"Configurações do Site"**.
-2.  Clique na opção **"Configurações Gerais"**.
-3.  Uma página com os seguintes campos editáveis irá aparecer:
+1.  No menu à esquerda, clique em **"Configurações Gerais"**.
+2.  Uma página com os seguintes campos editáveis irá aparecer:
     * **Título Principal do Site:** O nome que aparece no topo da sua loja.
     * **Slogan abaixo do Título:** A frase que aparece sob o título.
     * **Links de Suporte:** Campos para os seus links de WhatsApp e Telegram.
-    * **Cupom de Desconto:** Onde pode definir um código de cupom (ex: BZR10) и a percentagem de desconto (ex: 0.1 para 10%).
-4.  Após fazer as alterações, clique no botão azul **"Publicar"** no topo da página e, em seguida, em **"Publicar agora"** para guardar e aplicar as mudanças no site.
+    * **Cupom de Desconto:** Onde pode definir um código de cupom (ex: BZR10) e a percentagem de desconto (ex: 0.1 para 10%).
+3.  Após fazer as alterações, clique no botão azul **"Publicar"** no topo da página e, em seguida, em **"Publicar agora"** para guardar e aplicar as mudanças no site.
 
 ---
 
@@ -45,8 +45,7 @@ Nesta secção, você pode alterar o nome do site, o slogan, os links de contato
 
 Esta é a parte que você mais usará. Aqui pode adicionar, editar ou remover produtos da sua loja.
 
-1.  No menu à esquerda, clique em **"Configurações do Site"**.
-2.  Clique na opção **"Produtos e Assinaturas"**.
+1.  No menu à esquerda, clique em **"Produtos e Assinaturas"**.
 
 ##### **Para Editar um Produto Existente:**
 
@@ -57,7 +56,7 @@ Esta é a parte que você mais usará. Aqui pode adicionar, editar ou remover pr
 
 ##### **Para Adicionar um Novo Produto:**
 
-1.  Na página "Produtos e Assinaturas", clique no botão verde **"Adicionar novo Produtos e Assinaturas"**.
+1.  Na página "Produtos e Assinaturas", clique no botão verde **"Adicionar novo Produtos"** (o nome pode variar).
 2.  Preencha todos os campos do novo produto (Nome, Ícone, etc.).
 3.  Para adicionar os planos, clique no botão **"+ Adicionar"** dentro da secção "Variações do Produto (planos)". Preencha as informações de cada plano que você quer oferecer.
 4.  Quando terminar, clique em **"Publicar"** para que o novo produto apareça na sua loja.
