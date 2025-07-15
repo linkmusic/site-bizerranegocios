@@ -2,8 +2,9 @@
   "title": "Bizerra Negócios",
   "tagline": "As melhores ofertas em entretenimento e jogos.",
   "links": {
-    "group_whatsapp": "#",
-    "support_telegram": "#",
+    "group_whatsapp": "https://chat.whatsapp.com/D3LzgVOzT3q42DExw6bivp",
+    "support_telegram": "https://t.me/wesleybizerrayt",
+    "group_telegram": "https://t.me/WesleyBizerraAPPS",
     "support_whatsapp_number": "+5571981574664"
   },
   "coupon": {

@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     :root {
-      --primary-color: #2c3e50; /* Azul Marinho */
+      --primary-color: #0088cc; /* Azul Telegram */
       --dark-bg: #121212;
       --card-bg: #1e1e1e;
       --text-color: #ffffff;
@@ -48,8 +48,8 @@
     .product-card i { font-size: 1.8rem; margin-bottom: 1rem; color: var(--primary-color); }
     .hidden { display: none; }
     .btn { display: inline-block; padding: 0.8rem 1.5rem; border-radius: 30px; font-weight: bold; cursor: pointer; border: none; transition: all 0.3s ease; text-align: center; }
-    .btn-primary { background: var(--primary-color); color: #fff; }
-    .btn-primary:hover { background: #1f2b38; }
+    .btn-primary { background: var(--primary-color); color: #ffffff; }
+    .btn-primary:hover { background: #0077b3; }
     .btn-success { background: var(--success-color); color: white; }
     .btn-success:hover { background: #20b955; }
     .btn-danger { background: var(--danger-color); color: white; }
@@ -72,7 +72,7 @@
     .checkout-btn-float { background: var(--primary-color); color: white; }
     .empty-cart { color: var(--light-gray); font-style: italic; padding: 1rem; text-align: center; }
     .product-detail { background: var(--card-bg); padding: 1.2rem; border-radius: 10px; margin: 1rem 0; }
-    .selected-variation { padding: 0.8rem; background: rgba(44, 62, 80, 0.1); border-radius: 8px; border-left: 3px solid var(--primary-color); margin: 1rem 0; }
+    .selected-variation { padding: 0.8rem; background: rgba(0, 136, 204, 0.1); border-radius: 8px; border-left: 3px solid var(--primary-color); margin: 1rem 0; }
     .quantity-control { display: flex; align-items: center; gap: 0.5rem; margin: 1rem 0; }
     .quantity-btn { width: 40px; height: 40px; border-radius: 50%; background: var(--gray-color); color: white; border: none; display: flex; align-items: center; justify-content: center; cursor: pointer; font-weight: bold; font-size: 1rem; }
     .quantity-btn:hover { background: var(--light-gray); }
@@ -145,7 +145,8 @@
     </div>
   </div>
   <div class="floating-buttons-container">
-    <div class="floating-button group-btn" onclick="openGroupWhatsApp()"><i class="fab fa-whatsapp"></i><span class="tooltip">Grupo de Clientes</span></div>
+    <div class="floating-button group-btn" onclick="openGroupWhatsApp()"><i class="fab fa-whatsapp"></i><span class="tooltip">Grupo WhatsApp</span></div>
+    <div class="floating-button telegram-btn" onclick="openGroupTelegram()"><i class="fab fa-telegram"></i><span class="tooltip">Grupo Telegram</span></div>
     <div class="floating-button telegram-btn" onclick="openTelegram()"><i class="fab fa-telegram"></i><span class="tooltip">Suporte Telegram</span></div>
     <div class="floating-button whatsapp-btn" onclick="openSupportWhatsApp()"><i class="fab fa-whatsapp"></i><span class="tooltip">Suporte WhatsApp</span></div>
     <div class="floating-button checkout-btn-float" onclick="checkout()"><i class="fas fa-shopping-cart"></i><span class="tooltip">Finalizar Pedido</span></div>
@@ -306,6 +307,7 @@
     function openSupportWhatsApp() { if (settings.links && settings.links.support_whatsapp_number) window.open(`https://wa.me/${settings.links.support_whatsapp_number}?text=${encodeURIComponent("Olá, preciso de suporte!")}`, "_blank"); }
     function openTelegram() { if (settings.links && settings.links.support_telegram) window.open(settings.links.support_telegram, "_blank"); }
     function openGroupWhatsApp() { if (settings.links && settings.links.group_whatsapp) window.open(settings.links.group_whatsapp, "_blank"); }
+    function openGroupTelegram() { if (settings.links && settings.links.group_telegram) window.open(settings.links.group_telegram, "_blank"); }
 
     // --- Inicialização da Página ---
     async function initPage() {
