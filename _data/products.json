@@ -344,6 +344,51 @@
           "important": "Plus desbloqueado."
         }
       ]
+    },
+    {
+      "id": 22,
+      "name": "Spotify Premium APK",
+      "icon": "fas fa-tv",
+      "category": "Todos",
+      "description": "Spotify Premium APK, livre de anúncios.",
+      "variations": [
+        {
+          "name": "Spotify Premium APK",
+          "price": 3,
+          "details": "Uma versão modificada do maior aplicativo de música do mundo, que permite aos usuários desfrutarem de quase todos os recursos premium sem a necessidade de assinatura paga. Em outras palavras, com o Spotify, você pode ouvir suas músicas favoritas sem interrupções.",
+          "important": "Possibilidade de ouvir músicas sem anúncios e pular faixas ilimitadamente."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Youtube Músic Premium",
+      "icon": "fas fa-tv",
+      "category": "Todos",
+      "description": "App do Youtube Music Premium",
+      "variations": [
+        {
+          "name": "Youtube Músic Premium",
+          "price": 3,
+          "details": "App do youtube music premium muito barato...",
+          "important": "Adquira e ouça musicas no youtube sem anúncio nenhum."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Youtube Premium",
+      "icon": "fas fa-tv",
+      "category": "Todos",
+      "description": "App do youtube premium",
+      "variations": [
+        {
+          "name": "Youtube Premium",
+          "price": 5,
+          "details": "App do youtube premium para assistir videos sem anúncios.",
+          "important": "Assista a vídeos no app do youtube sem anúncios."
+        }
+      ]
     }
   ]
 }
