@@ -9,31 +9,31 @@
       "variations": [
         {
           "name": "Completo (Tela) - 1 Ano",
-          "price": 70.00,
+          "price": 70,
           "details": "Acesso completo à programação da Claro TV por 1 ano. No site oficial, custa R$ 120 por mês.",
           "important": "Garantia e suporte durante toda a validade do plano. Uso em 1 tela."
         },
         {
           "name": "+ ESPN (Tela) - Mensal",
-          "price": 10.00,
+          "price": 10,
           "details": "Acesso mensal ao pacote de canais com ESPN.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         },
         {
           "name": "+ ESPN + HBO (Tela) - Mensal",
-          "price": 13.00,
+          "price": 13,
           "details": "Acesso mensal ao pacote de canais com ESPN e HBO.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         },
         {
           "name": "+ ESPN + Premiere (Tela) - Mensal",
-          "price": 15.00,
+          "price": 15,
           "details": "Acesso mensal ao pacote de canais com ESPN e Premiere.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         },
         {
           "name": "+ ESPN + Telecine (Tela) - Mensal",
-          "price": 12.00,
+          "price": 12,
           "details": "Acesso mensal ao pacote de canais com ESPN e Telecine.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         }
@@ -48,13 +48,13 @@
       "variations": [
         {
           "name": "+ Canais (Tela) - Mensal",
-          "price": 12.00,
+          "price": 12,
           "details": "Assista novelas, séries e canais ao vivo da Globo.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         },
         {
           "name": "+ Combate (Tela) - Mensal",
-          "price": 10.00,
+          "price": 10,
           "details": "Ideal para fãs de luta que também querem o conteúdo da Globo.",
           "important": "Não inclui canais ao vivo, apenas o conteúdo do Combate."
         }
@@ -69,7 +69,7 @@
       "variations": [
         {
           "name": "Tela - Mensal",
-          "price": 10.00,
+          "price": 10,
           "details": "Acesso premium ao catálogo de animes.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         }
@@ -84,7 +84,7 @@
       "variations": [
         {
           "name": "Tela - Mensal",
-          "price": 13.00,
+          "price": 13,
           "details": "Acesso a todos os filmes e séries do Disney+.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         }
@@ -99,7 +99,7 @@
       "variations": [
         {
           "name": "Tela - Mensal",
-          "price": 10.00,
+          "price": 10,
           "details": "Catálogo completo com séries e filmes da Warner, HBO e Max Originals.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         }
@@ -114,7 +114,7 @@
       "variations": [
         {
           "name": "Tela - Mensal",
-          "price": 10.00,
+          "price": 10,
           "details": "Assista à programação da Record e conteúdos exclusivos.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         }
@@ -129,7 +129,7 @@
       "variations": [
         {
           "name": "Tela - 1 Ano",
-          "price": 70.00,
+          "price": 70,
           "details": "Acesso completo à programação da Sky+ por 1 ano.",
           "important": "Garantia e suporte durante toda a validade do plano. Uso em 1 tela."
         }
@@ -144,7 +144,7 @@
       "variations": [
         {
           "name": "Individual - 2 Meses",
-          "price": 15.00,
+          "price": 15,
           "details": "Acesso individual ao Spotify Premium por 2 meses.",
           "important": "Pagamento único para 2 meses de acesso."
         }
@@ -159,7 +159,7 @@
       "variations": [
         {
           "name": "Tela - 1 Ano",
-          "price": 70.00,
+          "price": 70,
           "details": "Acesso completo à programação do Vivo Play por 1 ano.",
           "important": "Garantia e suporte durante toda a validade do plano. Uso em 1 tela."
         }
@@ -167,14 +167,14 @@
     },
     {
       "id": 10,
-      "name": "Netflix Premium",
+      "name": "Netflix Padrão",
       "icon": "fas fa-film",
       "category": "Streaming",
-      "description": "Plano Premium da Netflix com qualidade 4K.",
+      "description": "Plano Padrão da Netflix com qualidade 4K.",
       "variations": [
         {
           "name": "Tela - Mensal",
-          "price": 15.00,
+          "price": 14,
           "details": "Qualidade Ultra HD (4K) e HDR. Assista em uma tela por vez.",
           "important": "Renovação mensal. Suporte completo."
         }
@@ -182,6 +182,21 @@
     },
     {
       "id": 11,
+      "name": "Apple TV",
+      "icon": "fas fa-tv",
+      "category": "Streaming",
+      "description": "1 mês de acesso completo a Apple TV",
+      "variations": [
+        {
+          "name": "Tela",
+          "price": 10,
+          "details": "1 Mês de acesso completo a Apple TV",
+          "important": "1 mês de acesso completo a Apple TV"
+        }
+      ]
+    },
+    {
+      "id": 12,
       "name": "Xbox Game Pass Ultimate",
       "icon": "fab fa-xbox",
       "category": "Jogos",
@@ -189,14 +204,14 @@
       "variations": [
         {
           "name": "Assinatura Mensal",
-          "price": 40.00,
+          "price": 40,
           "details": "Inclui Xbox Live Gold, EA Play e acesso a jogos no dia do lançamento.",
           "important": "Renovação mensal. Requer uma conta Xbox."
         }
       ]
     },
     {
-      "id": 12,
+      "id": 13,
       "name": "Inscritos para YouTube",
       "icon": "fab fa-youtube",
       "category": "Marketing Digital",
@@ -204,14 +219,14 @@
       "variations": [
         {
           "name": "1.000 Inscritos",
-          "price": 52.00,
+          "price": 52,
           "details": "Pacote com 1.000 inscritos para o seu canal.",
           "important": "A entrega é concluída em até 48 horas."
         }
       ]
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "Visualizações para YouTube",
       "icon": "fas fa-eye",
       "category": "Marketing Digital",
@@ -219,14 +234,14 @@
       "variations": [
         {
           "name": "1.000 Visualizações",
-          "price": 20.00,
+          "price": 20,
           "details": "Pacote com 1.000 visualizações para um vídeo.",
           "important": "A entrega é concluída em até 48 horas."
         }
       ]
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "Likes para YouTube",
       "icon": "fas fa-thumbs-up",
       "category": "Marketing Digital",
@@ -234,14 +249,14 @@
       "variations": [
         {
           "name": "1.000 Likes",
-          "price": 15.00,
+          "price": 15,
           "details": "Pacote com 1.000 likes para um vídeo.",
           "important": "A entrega é concluída em até 48 horas."
         }
       ]
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "Membros para Telegram",
       "icon": "fab fa-telegram",
       "category": "Marketing Digital",
@@ -249,14 +264,14 @@
       "variations": [
         {
           "name": "1.000 Membros",
-          "price": 15.00,
+          "price": 15,
           "details": "Pacote com 1.000 novos membros para seu grupo ou canal.",
           "important": "A entrega é concluída em até 48 horas."
         }
       ]
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "Seguidores para Instagram",
       "icon": "fab fa-instagram",
       "category": "Marketing Digital",
@@ -264,7 +279,7 @@
       "variations": [
         {
           "name": "1.000 Seguidores (Reais Mundiais)",
-          "price": 30.00,
+          "price": 30,
           "details": "Pacote com 1.000 seguidores reais de perfis mundiais.",
           "important": "A entrega é concluída em até 48 horas."
         }
