@@ -74,7 +74,7 @@ collections:
                 summary: "{{fields.name}} - R$ {{fields.price}}"
                 fields:
                   - { label: "Nome da Variação", name: "name", widget: "string" }
-                  - { label: "Preço", name: "price", widget: "number" }
+                  - { label: "Preço (use ponto para centavos, ex: 19.90)", name: "price", widget: "number", value_type: "float", step: 0.01, min: 0 }
                   - { label: "Detalhes", name: "details", widget: "text" }
                   - { label: "Nota Importante", name: "important", widget: "text" }
   

@@ -134,7 +134,7 @@
       <div id="productsByCategory"></div>
     </div>
     <div id="productDetail" class="hidden">
-      <a class="top-back-link" onclick="goHome()"><i class="fas fa-arrow-left"></i> Voltar para produtos</a>
+      <a class="top-back-link" onclick="history.back()"><i class="fas fa-arrow-left"></i> Voltar para produtos</a>
       <div class="product-detail fade-in">
         <h2 id="productName"><i class="fas fa-info-circle"></i> Produto</h2>
         <p id="productDescription">Descrição do produto.</p>
@@ -148,7 +148,7 @@
         </div>
         <button class="btn btn-primary" onclick="addToCart()"><i class="fas fa-cart-plus"></i> Adicionar ao Carrinho</button>
       </div>
-      <a class="back-link" onclick="goHome()"><i class="fas fa-arrow-left"></i> Voltar para produtos</a>
+      <a class="back-link" onclick="history.back()"><i class="fas fa-arrow-left"></i> Voltar para produtos</a>
     </div>
   </div>
 
@@ -183,8 +183,12 @@
     function saveCart() { localStorage.setItem('bizerraCart', JSON.stringify(cart)); }
     function changeQuantity(change) { const input = document.getElementById('productQuantity'); let newValue = parseInt(input.value) + change; if (newValue < 1) newValue = 1; input.value = newValue; }
     function showAlert(message, type) { const alert = document.createElement("div"); alert.className = `alert alert-${type}`; alert.textContent = message; document.body.appendChild(alert); setTimeout(() => { alert.style.animation = "fadeOut 0.5s ease"; setTimeout(() => alert.remove(), 500); }, 3000); }
-    function goHome() { document.getElementById("homePage").classList.remove("hidden"); document.getElementById("productDetail").classList.add("hidden"); }
     function toggleCart() { document.getElementById("cartDropdown").classList.toggle("show"); }
+    
+    function goHome() {
+        document.getElementById("homePage").classList.remove("hidden");
+        document.getElementById("productDetail").classList.add("hidden");
+    }
 
     function renderCategories() {
         const categoriesData = [{ id: 'todos', name: 'Todos' }, ...new Set(products.map(p => p.category))].map(cat => typeof cat === 'string' ? {id: cat, name: cat.charAt(0).toUpperCase() + cat.slice(1)} : cat);
@@ -217,7 +221,7 @@
         container.appendChild(grid);
     }
     
-    function showProduct(id) {
+    function showProduct(id, fromHistory = false) {
         const product = products.find(p => p.id === id);
         if (!product) return;
         selectedProductId = id;
@@ -233,6 +237,10 @@
         selectVariation(variationsContainer.children[0], product.variations[0].name);
         document.getElementById("homePage").classList.add("hidden");
         document.getElementById("productDetail").classList.remove("hidden");
+
+        if (!fromHistory) {
+            history.pushState({ productId: id }, product.name, `#product/${id}`);
+        }
     }
 
     function selectVariation(element, variationName) {
@@ -323,6 +331,17 @@
     function openGroupWhatsApp() { if (settings.links && settings.links.group_whatsapp) window.open(settings.links.group_whatsapp, "_blank"); }
     function openGroupTelegram() { if (settings.links && settings.links.group_telegram) window.open(settings.links.group_telegram, "_blank"); }
 
+    function handlePopState(event) {
+        if (location.hash.startsWith('#product/')) {
+            const productId = parseInt(location.hash.replace('#product/', ''));
+            if (productId && products.length > 0) {
+                showProduct(productId, true);
+            }
+        } else {
+            goHome();
+        }
+    }
+
     // --- Inicialização da Página ---
     async function initPage() {
         try {
@@ -332,14 +351,12 @@
             [settings, { items }] = await Promise.all([settingsPromise, productsPromise]);
             products = items;
 
-            // Aplica as cores do tema
             if (settings.theme_colors) {
                 document.documentElement.style.setProperty('--primary-color', settings.theme_colors.primary);
                 document.documentElement.style.setProperty('--dark-bg', settings.theme_colors.background);
                 document.documentElement.style.setProperty('--text-color', settings.theme_colors.text);
             }
 
-            // Insere os códigos do AdSense (se configurado no painel)
             if (settings.adsense) {
                 if(settings.adsense.head_script) document.getElementById('adsense-head-script').innerHTML = settings.adsense.head_script;
                 if(settings.adsense.ad_unit_1) document.getElementById('ad-unit-1').innerHTML = settings.adsense.ad_unit_1;
@@ -354,11 +371,17 @@
             loadCart();
             renderCategories();
             renderProducts();
+            
+            // Lida com o estado inicial da página (botão voltar/URL direta)
+            handlePopState(); 
+
         } catch (error) {
             console.error("Erro ao carregar os dados:", error);
             document.querySelector('.container').innerHTML = "<h1>Erro ao carregar o site. Tente novamente mais tarde.</h1>";
         }
     }
+    
+    window.addEventListener('popstate', handlePopState);
     document.addEventListener("DOMContentLoaded", initPage);
   </script>
 </body>
