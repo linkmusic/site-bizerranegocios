@@ -286,21 +286,6 @@
       ]
     },
     {
-      "id": 19,
-      "name": "Filmora PRO APK ( Premium Desbloqueado )",
-      "icon": "fas fa-tv",
-      "category": "Todos",
-      "description": "Premium Desbloqueado",
-      "variations": [
-        {
-          "name": "Filmora PRO APK ( Premium Desbloqueado )",
-          "price": 5,
-          "details": "Você já se perguntou como os influenciadores e criadores de conteúdo conseguem criar vídeos incríveis com efeitos especiais e transições suaves? A resposta pode estar no aplicativo Filmora, que é amplamente conhecido por sua interface intuitiva e recursos de edição de vídeo de alta qualidade.",
-          "important": "App de edição premium abaixo do preço"
-        }
-      ]
-    },
-    {
       "id": 18,
       "name": "XRecorder Pro Desbloqueado",
       "icon": "fas fa-tv",
@@ -312,6 +297,21 @@
           "price": 3,
           "details": "O XRecorder é uma ferramenta poderosa e fácil de usar para capturar a tela do seu dispositivo Android, de modo que possui uma interface amigável e uma gama de funcionalidades avançadas, se destacando como uma escolha excelente para quem deseja gravar vídeos de alta qualidade, sejam para tutoriais, jogos ou apresentações.",
           "important": "PRO desbloqueado."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Filmora PRO APK ( Premium Desbloqueado )",
+      "icon": "fas fa-tv",
+      "category": "Todos",
+      "description": "Premium Desbloqueado",
+      "variations": [
+        {
+          "name": "Filmora PRO APK ( Premium Desbloqueado )",
+          "price": 5,
+          "details": "Você já se perguntou como os influenciadores e criadores de conteúdo conseguem criar vídeos incríveis com efeitos especiais e transições suaves? A resposta pode estar no aplicativo Filmora, que é amplamente conhecido por sua interface intuitiva e recursos de edição de vídeo de alta qualidade.",
+          "important": "App de edição premium abaixo do preço"
         }
       ]
     }
