@@ -374,21 +374,6 @@
           "important": "Adquira e ouça musicas no youtube sem anúncio nenhum."
         }
       ]
-    },
-    {
-      "id": 24,
-      "name": "Youtube Premium",
-      "icon": "fas fa-tv",
-      "category": "Todos",
-      "description": "App do youtube premium",
-      "variations": [
-        {
-          "name": "Youtube Premium",
-          "price": 5,
-          "details": "App do youtube premium para assistir videos sem anúncios.",
-          "important": "Assista a vídeos no app do youtube sem anúncios."
-        }
-      ]
     }
   ]
 }
