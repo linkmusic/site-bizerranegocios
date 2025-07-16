@@ -359,21 +359,6 @@
           "important": "Possibilidade de ouvir músicas sem anúncios e pular faixas ilimitadamente."
         }
       ]
-    },
-    {
-      "id": 22,
-      "name": "Youtube Músic Premium",
-      "icon": "fas fa-tv",
-      "category": "Todos",
-      "description": "App do Youtube Music Premium",
-      "variations": [
-        {
-          "name": "Youtube Músic Premium",
-          "price": 3,
-          "details": "App do youtube music premium muito barato...",
-          "important": "Adquira e ouça musicas no youtube sem anúncio nenhum."
-        }
-      ]
     }
   ]
 }
