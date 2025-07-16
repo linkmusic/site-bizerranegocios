@@ -314,6 +314,21 @@
           "important": "Instruções:\n- Antes de tudo, instale a versão oficial na Playstore e faça login;\n- Depois de ter feito login, desinstale o aplicativo oficial e instale o MOD;\n- Por fim, agora só escolher a mesma conta no MOD para fazer login, e pronto!"
         }
       ]
+    },
+    {
+      "id": 20,
+      "name": "XRecorder Pro Desbloqueado",
+      "icon": "fas fa-tv",
+      "category": "Todos",
+      "description": "App de Gravação de Video Pro pra Android",
+      "variations": [
+        {
+          "name": "XRecorder Pro Desbloqueado",
+          "price": 3,
+          "details": "O XRecorder é uma ferramenta poderosa e fácil de usar para capturar a tela do seu dispositivo Android, de modo que possui uma interface amigável e uma gama de funcionalidades avançadas, se destacando como uma escolha excelente para quem deseja gravar vídeos de alta qualidade, sejam para tutoriais, jogos ou apresentações.",
+          "important": "PRO desbloqueado."
+        }
+      ]
     }
   ]
 }
