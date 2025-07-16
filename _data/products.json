@@ -344,21 +344,6 @@
           "important": "Plus desbloqueado."
         }
       ]
-    },
-    {
-      "id": 22,
-      "name": "Spotify Premium APK",
-      "icon": "fas fa-tv",
-      "category": "Todos",
-      "description": "Spotify Premium APK, livre de anúncios.",
-      "variations": [
-        {
-          "name": "Spotify Premium APK",
-          "price": 3,
-          "details": "Uma versão modificada do maior aplicativo de música do mundo, que permite aos usuários desfrutarem de quase todos os recursos premium sem a necessidade de assinatura paga. Em outras palavras, com o Spotify, você pode ouvir suas músicas favoritas sem interrupções.",
-          "important": "Possibilidade de ouvir músicas sem anúncios e pular faixas ilimitadamente."
-        }
-      ]
     }
   ]
 }
