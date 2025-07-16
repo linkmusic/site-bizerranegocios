@@ -286,6 +286,21 @@
       ]
     },
     {
+      "id": 19,
+      "name": "Curtidas 100% reais no instagram",
+      "icon": "fab fa-instagram",
+      "category": "Marketing Digital",
+      "description": "Aumente as curtidas no seu instagram",
+      "variations": [
+        {
+          "name": "Curtidas no seu instagram 100% reais",
+          "price": 10,
+          "details": "Aumente as curtidas no seu instagram rapidamente, chega em até 48 horas.",
+          "important": "Essas curtidadas chegam em até 48 horas no seu instagram."
+        }
+      ]
+    },
+    {
       "id": 18,
       "name": "XRecorder Pro Desbloqueado",
       "icon": "fas fa-tv",
@@ -301,7 +316,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "Filmora PRO APK ( Premium Desbloqueado )",
       "icon": "fas fa-tv",
       "category": "Todos",
