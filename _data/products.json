@@ -329,21 +329,6 @@
           "important": "PRO desbloqueado."
         }
       ]
-    },
-    {
-      "id": 21,
-      "name": "Sticker.ly Plus Desbloqueado",
-      "icon": "fas fa-tv",
-      "category": "Todos",
-      "description": "App de Figurinhas para app de mensagens Plus",
-      "variations": [
-        {
-          "name": "Sticker.ly Plus Desbloqueado",
-          "price": 2,
-          "details": "É uma plataforma divertida e criativa que permite aos usuários criar e compartilhar adesivos personalizados para aplicativos de mensagens. Além disso, com ele você pode transformar suas fotos, desenhos ou qualquer imagem em adesivos exclusivos e enviá-los para seus amigos e familiares.",
-          "important": "Plus desbloqueado."
-        }
-      ]
     }
   ]
 }
