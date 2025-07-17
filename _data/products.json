@@ -48,15 +48,21 @@
       "variations": [
         {
           "name": "+ Canais (Tela) - Mensal",
-          "price": 15,
+          "price": 20,
           "details": "Assista novelas, séries e canais ao vivo da Globo.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         },
         {
           "name": "+ Combate (Tela) - Mensal",
-          "price": 15,
+          "price": 20,
           "details": "Ideal para fãs de luta que também querem o conteúdo da Globo.",
           "important": "Não inclui canais ao vivo, apenas o conteúdo do Combate."
+        },
+        {
+          "name": "+ Premiere",
+          "price": 20,
+          "details": "Globo Play com Canais + Premiere abaixo do preço",
+          "important": "Assista os canais da globo play e a premiere com promoção mensal."
         }
       ]
     },
