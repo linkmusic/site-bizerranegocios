@@ -329,6 +329,21 @@
           "important": "App de edição premium abaixo do preço"
         }
       ]
+    },
+    {
+      "id": 20,
+      "name": "Youtube Premium com direito as atualizações.",
+      "icon": "faz fa-tv",
+      "category": "Todos",
+      "description": "App do Youtube Premium com Direito a Atualizações.",
+      "variations": [
+        {
+          "name": "Youtube Premium",
+          "price": 5,
+          "details": "Recebe o app do youtube premium por apenas 5 reais, e tem direito a atualizações sempre que tiver.",
+          "important": "Adquira seu youtube premium e assista videos sem anuncios."
+        }
+      ]
     }
   ]
 }
