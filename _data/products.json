@@ -329,6 +329,27 @@
           "important": "Adquira seu youtube premium e assista videos sem anuncios."
         }
       ]
+    },
+    {
+      "id": 21,
+      "name": "UniTV com todos os canais de TV Ao Vivo",
+      "icon": "fas fa-tv",
+      "category": "Streaming",
+      "description": "App de TV Ao Vivo Filmes e Series",
+      "variations": [
+        {
+          "name": "Uni TV Anual",
+          "price": 100,
+          "details": "App da UniTV Anual, paga uma vez por ano e assiste tudo",
+          "important": "Pague e adquira esse belo produto"
+        },
+        {
+          "name": "Uni TV Mensal",
+          "price": 25,
+          "details": "App da UniTV mensal, paga uma vez por mes e assiste tudo",
+          "important": "Pague e adquira esse belo produto"
+        }
+      ]
     }
   ]
 }
