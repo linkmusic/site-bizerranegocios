@@ -8,8 +8,8 @@
       "description": "Pacotes de assinatura da Claro TV, mensais e anuais.",
       "variations": [
         {
-          "name": "Completo (Tela) - 1 Ano",
-          "price": 85,
+          "name": "Completo Anual (Tela) - 1 Ano",
+          "price": 100,
           "details": "Acesso completo à programação da Claro TV por 1 ano. No site oficial, custa R$ 120 por mês.",
           "important": "Garantia e suporte durante toda a validade do plano. Uso em 1 tela."
         },
