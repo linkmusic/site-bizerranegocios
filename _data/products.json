@@ -83,8 +83,14 @@
       "description": "Acesso ao catálogo completo do Disney+.",
       "variations": [
         {
+          "name": "Disney Premium Conta Completa Mensal",
+          "price": 40,
+          "details": "Disney premium conta completa, pague uma vez por mês e tenha a conta disney premium completa por um mês.",
+          "important": "Disney premium conta completa abaixo do preço:"
+        },
+        {
           "name": "Tela - Mensal",
-          "price": 15,
+          "price": 25,
           "details": "Acesso a todos os filmes e séries do Disney+.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         }
