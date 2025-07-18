@@ -170,16 +170,22 @@
     },
     {
       "id": 10,
-      "name": "Netflix Padrão",
+      "name": "Netflix",
       "icon": "fas fa-film",
       "category": "Streaming",
       "description": "Plano Padrão da Netflix com qualidade 4K.",
       "variations": [
         {
-          "name": "Tela - Mensal",
+          "name": "Padrão (Tela) - Mensal",
           "price": 15,
           "details": "Qualidade Ultra HD (4K) e HDR. Assista em uma tela por vez.",
           "important": "Renovação mensal. Suporte completo."
+        },
+        {
+          "name": "Premium ( Tela ) - Mensal",
+          "price": 30,
+          "details": "Netflix premium mensal",
+          "important": "Netflix de qualidade por um preço bacana."
         }
       ]
     },
