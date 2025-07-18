@@ -15,27 +15,33 @@
         },
         {
           "name": "+ ESPN (Tela) - Mensal",
-          "price": 15,
+          "price": 20,
           "details": "Acesso mensal ao pacote de canais com ESPN.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         },
         {
           "name": "+ ESPN + HBO (Tela) - Mensal",
-          "price": 20,
+          "price": 25,
           "details": "Acesso mensal ao pacote de canais com ESPN e HBO.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         },
         {
           "name": "+ ESPN + Premiere (Tela) - Mensal",
-          "price": 20,
+          "price": 25,
           "details": "Acesso mensal ao pacote de canais com ESPN e Premiere.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         },
         {
           "name": "+ ESPN + Telecine (Tela) - Mensal",
-          "price": 20,
+          "price": 25,
           "details": "Acesso mensal ao pacote de canais com ESPN e Telecine.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
+        },
+        {
+          "name": "+ Premiere ( Tela ) - Mensal",
+          "price": 20,
+          "details": "Claro TV + Premiere Mensal",
+          "important": "Login e senha da claro tv + premiere mensal"
         }
       ]
     },
