@@ -173,7 +173,7 @@
       "name": "Netflix",
       "icon": "fas fa-film",
       "category": "Streaming",
-      "description": "Plano Padrão da Netflix com qualidade 4K.",
+      "description": "Netflix com qualidade 4K.",
       "variations": [
         {
           "name": "Premium ( Tela ) - Mensal",
