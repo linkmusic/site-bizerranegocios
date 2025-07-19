@@ -9,7 +9,7 @@
   },
   "coupon": {
     "code": "BZR10",
-    "percentage": 0.1
+    "percentage": 10
   },
   "theme_colors": {
     "primary": "#0088cc",
