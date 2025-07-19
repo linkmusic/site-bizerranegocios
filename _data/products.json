@@ -347,10 +347,16 @@
       "description": "App do Youtube Premium com Direito a Atualizações.",
       "variations": [
         {
-          "name": "Youtube Premium",
-          "price": 5,
+          "name": "Youtube Premium APK",
+          "price": 15,
           "details": "Recebe o app do youtube premium por apenas 5 reais, e tem direito a atualizações sempre que tiver.",
           "important": "Adquira seu youtube premium e assista videos sem anuncios."
+        },
+        {
+          "name": "Youtube Premium PC",
+          "price": 15,
+          "details": "Receba acesso ao youtube premium pra vc acessar no pc por um preço mais barato.",
+          "important": "Youtube Premium PC barato."
         }
       ]
     },
