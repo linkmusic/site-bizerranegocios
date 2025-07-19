@@ -342,7 +342,7 @@
     {
       "id": 20,
       "name": "Youtube Premium com direito as atualizações",
-      "icon": "faz fa-tv",
+      "icon": "fas fa-tv",
       "category": "Streaming",
       "description": "App do Youtube Premium com Direito a Atualizações.",
       "variations": [
