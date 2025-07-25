@@ -380,6 +380,27 @@
           "important": "Pague e adquira esse belo produto"
         }
       ]
+    },
+    {
+      "id": 21,
+      "name": "Spotify",
+      "icon": "fas fa-tv",
+      "category": "Streaming",
+      "description": "Spotify premium 1 mes e 6 meses",
+      "variations": [
+        {
+          "name": "Spotify Premium 1 mês",
+          "price": 15,
+          "details": "Spotify Premium por 1 mês, só paga uma vez por mês.",
+          "important": "Adquira o spotify premium de 1 mês e curta as melhores musicas."
+        },
+        {
+          "name": "Spotify Premum 6 meses",
+          "price": 40,
+          "details": "Spotify Premium por apenas 40 reais, só paga 1 vez a cada 6 meses.",
+          "important": "Adquira o spotify premium de 6 meses e fique 6 meses curtindo as melhores musicas."
+        }
+      ]
     }
   ]
 }
