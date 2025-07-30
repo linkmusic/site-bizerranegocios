@@ -186,6 +186,12 @@
           "price": 15,
           "details": "Qualidade Ultra HD (4K) e HDR. Assista em uma tela por vez.",
           "important": "Renovação mensal. Suporte completo."
+        },
+        {
+          "name": "Netflix Premium Completo",
+          "price": 40,
+          "details": "Netflix completa e premium por apenas 40 reais mensais, 40 reais uma vez por mês.",
+          "important": "Netflix Premium Completa com tudo."
         }
       ]
     },
