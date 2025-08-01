@@ -401,6 +401,12 @@
           "important": "Adquira o spotify premium de 1 mês e curta as melhores musicas."
         },
         {
+          "name": "Spotify Premium 3 meses ",
+          "price": 30,
+          "details": "Spotify Premium por 3 meses, paga 1 vez a cada 3 meses.",
+          "important": "Spotify Premium por 3 meses."
+        },
+        {
           "name": "Spotify Premum 6 meses",
           "price": 40,
           "details": "Spotify Premium por apenas 40 reais, só paga 1 vez a cada 6 meses.",
