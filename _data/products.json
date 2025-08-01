@@ -150,6 +150,12 @@
           "price": 85,
           "details": "Acesso completo à programação da Sky+ por 1 ano.",
           "important": "Garantia e suporte durante toda a validade do plano. Uso em 1 tela."
+        },
+        {
+          "name": "Sky Completo 30 dias ( Tela )",
+          "price": 25,
+          "details": "Sky completo por 30 dias por apenas 25 reais, 1 vez por mês.",
+          "important": "Sky completo por 30 dias."
         }
       ]
     },
