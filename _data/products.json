@@ -42,6 +42,24 @@
           "price": 20,
           "details": "Claro TV + Premiere Mensal",
           "important": "Login e senha da claro tv + premiere mensal"
+        },
+        {
+          "name": "+ ESPN + Sport TV ( Tela ) Mensal",
+          "price": 20,
+          "details": "Claro TV + ESPN + Sport TV, só paga 20 reais 1 vez por mes.",
+          "important": "Claro TV + ESPN + Sport TV"
+        },
+        {
+          "name": "+ PREMIERE + TELECINE ANUAL",
+          "price": 65,
+          "details": "Claro TV + Premiere + Telecine, só paga 1 vez por ano e tem direito a tudo isso.",
+          "important": "Claro TV + ESPN + Sport TV"
+        },
+        {
+          "name": "+ Telecine + HBO ( Tela ) Mensal",
+          "price": 20,
+          "details": "Claro TV + Telecine + HBO, paga 1 vez por mês e tem isso tudo pra assistir.",
+          "important": "Claro TV + Telecine + HBO"
         }
       ]
     },
@@ -74,14 +92,14 @@
     },
     {
       "id": 3,
-      "name": "Crunchyroll Premium",
+      "name": "Crunchyroll",
       "icon": "fas fa-dragon",
       "category": "Streaming",
       "description": "Assinatura premium do Crunchyroll para assistir animes sem anúncios.",
       "variations": [
         {
           "name": "Tela - Mensal",
-          "price": 10,
+          "price": 20,
           "details": "Acesso premium ao catálogo de animes.",
           "important": "Renovação mensal. Suporte completo. Uso em 1 tela."
         }
@@ -360,13 +378,13 @@
       "variations": [
         {
           "name": "Youtube Premium APK ( Só Celular )",
-          "price": 15,
+          "price": 20,
           "details": "Recebe o app do youtube premium por apenas 5 reais, e tem direito a atualizações sempre que tiver.",
           "important": "Adquira seu youtube premium e assista videos sem anuncios."
         },
         {
-          "name": "Youtube Premium PC e Celular",
-          "price": 15,
+          "name": "Youtube Premium PC e Celular 1 mês",
+          "price": 20,
           "details": "Receba acesso ao youtube premium pra vc acessar no pc por um preço mais barato, sem necessidade de baixar nada.",
           "important": "Youtube Premium PC barato."
         }
