@@ -437,6 +437,21 @@
           "important": "Adquira o spotify premium de 6 meses e fique 6 meses curtindo as melhores musicas."
         }
       ]
+    },
+    {
+      "id": 23,
+      "name": "HBO MAX ",
+      "icon": "fas fa-tv",
+      "category": "Streaming",
+      "description": "HBO MAX ( TELA ) Mensal",
+      "variations": [
+        {
+          "name": "HBO Max Mensal ( Tela )",
+          "price": 20,
+          "details": "HBO Max Mensal ( Tela ) Só paga 1 vez por mês.",
+          "important": "HBO Max Mensal ( Tela )"
+        }
+      ]
     }
   ]
 }
