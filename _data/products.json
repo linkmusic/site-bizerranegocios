@@ -258,7 +258,7 @@
       "variations": [
         {
           "name": "1.000 Inscritos",
-          "price": 55,
+          "price": 80,
           "details": "Pacote com 1.000 inscritos para o seu canal.",
           "important": "A entrega é concluída em até 48 horas."
         }
@@ -273,7 +273,7 @@
       "variations": [
         {
           "name": "1.000 Visualizações",
-          "price": 20,
+          "price": 30,
           "details": "Pacote com 1.000 visualizações para um vídeo.",
           "important": "A entrega é concluída em até 48 horas."
         }
@@ -303,7 +303,7 @@
       "variations": [
         {
           "name": "1.000 Membros",
-          "price": 20,
+          "price": 35,
           "details": "Pacote com 1.000 novos membros para seu grupo ou canal.",
           "important": "A entrega é concluída em até 48 horas."
         }
@@ -311,14 +311,14 @@
     },
     {
       "id": 17,
-      "name": "Seguidores para Instagram",
+      "name": "Seguidores para Instagram (Contas Reais Brasileiras)",
       "icon": "fab fa-instagram",
       "category": "Marketing Digital",
       "description": "Aumente o seu número de seguidores no Instagram.",
       "variations": [
         {
-          "name": "1.000 Seguidores (Reais Mundiais)",
-          "price": 35,
+          "name": "1.000 Seguidores (Contas Reais Brasileiras)",
+          "price": 40,
           "details": "Pacote com 1.000 seguidores reais de perfis mundiais.",
           "important": "A entrega é concluída em até 48 horas."
         }
@@ -333,7 +333,7 @@
       "variations": [
         {
           "name": "Curtidas no seu instagram 100% reais",
-          "price": 15,
+          "price": 30,
           "details": "Aumente as curtidas no seu instagram rapidamente, chega em até 48 horas, cada 1000 curtidas é 10 reais.",
           "important": "Essas curtidadas chegam em até 48 horas no seu instagram."
         }
