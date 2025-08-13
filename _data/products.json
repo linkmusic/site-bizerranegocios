@@ -518,6 +518,58 @@
           "important": "Prime + Premiere + Canais Globo + Paramount Plus Mensal ( Tela ) "
         }
       ]
+    },
+    {
+      "id": 26,
+      "name": "WhatsApp Membros Para Canal",
+      "icon": "fas fa-tv",
+      "category": "Marketing Digital",
+      "description": "Membros para o canal do Whatsapp",
+      "variations": [
+        {
+          "name": "Membros para canal no Whatsapp",
+          "price": 100,
+          "details": "Cada 1000 Membros no canal do whatsapp é 100 reais, chega em até 48 horas.",
+          "important": "Membros no canal do whatsapp"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Tiktok",
+      "icon": "fas fa-tv",
+      "category": "Marketing Digital",
+      "description": "Produtos para sua conta do tiktok",
+      "variations": [
+        {
+          "name": "Seguidores 100% Brasileiros",
+          "price": 55,
+          "details": "Seguiores 100% Brasileiros na sua conta do tiktok, cada 1000 seguidores é 55 reais.",
+          "important": "Seguidores 100% Brasileiros"
+        },
+        {}
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Kwai",
+      "icon": "fas fa-tv",
+      "category": "Marketing Digital",
+      "description": "Produtos para sua conta no kwai",
+      "variations": [
+        {
+          "name": "Seguidores 100% Brasileiros",
+          "price": 25,
+          "details": "Cada 1000 seguidores para sua conta no kwai 100% Brasileiros é 25 reais.",
+          "important": "Seguidores para sua conta no kwai 100% Brasileiros."
+        },
+        {
+          "name": "Curtidas 100% Brasileira",
+          "price": 20,
+          "details": "Cada 1000 Curtidas 100% Brasileira na sua conta do kwai é 20 reais.",
+          "important": "Curtidas 100% Brasileira"
+        }
+      ]
     }
   ]
 }
