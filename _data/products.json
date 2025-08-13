@@ -87,6 +87,18 @@
           "price": 20,
           "details": "Globo Play com Canais + Premiere abaixo do preço",
           "important": "Assista os canais da globo play e a premiere com promoção mensal."
+        },
+        {
+          "name": "+ Canais + Telecine ( Tela ) - Mensal",
+          "price": 20,
+          "details": "Globo Play com Canais + Telecine ( Tela ) Mensal, paga uma vez por mes.",
+          "important": "Globo Play com Canais + Telecine ( Tela ) Mensal"
+        },
+        {
+          "name": "Globo Play Sem Canais ( Tela ) Mensal",
+          "price": 15,
+          "details": "Globo Play Sem Canais ( Tela ) Mensal, paga uma vez por mês.",
+          "important": "Globo Play Sem Canais ( Tela ) Mensal"
         }
       ]
     },
@@ -450,6 +462,60 @@
           "price": 20,
           "details": "HBO Max Mensal ( Tela ) Só paga 1 vez por mês.",
           "important": "HBO Max Mensal ( Tela )"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Paramount",
+      "icon": "fas fa-tv",
+      "category": "Streaming",
+      "description": "Paramount ( Tela ) Mensal por um preço acessível.",
+      "variations": [
+        {
+          "name": "Paramount Plus Mensal ( Tela )",
+          "price": 20,
+          "details": "Paramount Plus Mensal ( Tela ), paga uma vez por mês.",
+          "important": "Paramount Plus Mensal ( Tela )"
+        },
+        {
+          "name": "Paramount + Mensal ( Tela ) ",
+          "price": 20,
+          "details": "Paramount + Mensal ( Tela ), paga uma vez por mês.",
+          "important": "Paramount + Mensal ( Tela )"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Prime",
+      "icon": "fas fa-tv",
+      "category": "Streaming",
+      "description": "Prime barato, abaixo do preço, mensal ( Tela ).",
+      "variations": [
+        {
+          "name": "Prime + Premiere + Canais Globo Mensal ( Tela )",
+          "price": 25,
+          "details": "Prime + Premiere + Canais Globo Mensal ( Tela ), paga uma vez por mês.",
+          "important": "Prime + Premiere + Canais Globo Mensal ( Tela )"
+        },
+        {
+          "name": "Prime Video Mensal ( Tela )",
+          "price": 20,
+          "details": "Prime Video Mensal ( Tela ), paga uma vez por mês",
+          "important": "Prime Video Mensal ( Tela )"
+        },
+        {
+          "name": "Prime + HBO Max + Apple TV + Paramount + Telecine + Crunchyroll Mensal ( Tela ) ",
+          "price": 30,
+          "details": "Prime + HBO Max + Apple TV + Paramount + Telecine + Crunchyroll Mensal ( Tela ), paga uma vez por mês.",
+          "important": "Prime + HBO Max + Apple TV + Paramount + Telecine + Crunchyroll Mensal ( Tela ) "
+        },
+        {
+          "name": "Prime + Premiere + Canais Globo + Paramount Plus Mensal ( Tela ) ",
+          "price": 30,
+          "details": "Prime + Premiere + Canais Globo + Paramount Plus Mensal ( Tela ) , paga uma vez por mês",
+          "important": "Prime + Premiere + Canais Globo + Paramount Plus Mensal ( Tela ) "
         }
       ]
     }
