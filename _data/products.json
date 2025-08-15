@@ -183,9 +183,21 @@
         },
         {
           "name": "Sky Completo 30 dias ( Tela )",
-          "price": 25,
+          "price": 30,
           "details": "Sky completo por 30 dias por apenas 25 reais, 1 vez por mês.",
           "important": "Sky completo por 30 dias."
+        },
+        {
+          "name": "Sky + HBO + Paramount Mensal ( Tela )",
+          "price": 20,
+          "details": "Sky + HBO + Paramount Mensal ( Tela ), paga uma vez por mês e tem isso tudo.",
+          "important": "Sky + HBO + Paramount Mensal ( Tela )"
+        },
+        {
+          "name": "Sky + Premiere + Paramount + ESPN Mensal ( Tela )",
+          "important": "Sky + Premiere + Paramount + ESPN Mensal ( Tela )",
+          "details": "Sky + Premiere + Paramount + ESPN Mensal ( Tela ), só paga uma vez por mês e tem isso tudo.",
+          "price": 30
         }
       ]
     },
@@ -432,7 +444,7 @@
       "variations": [
         {
           "name": "Spotify Premium 1 mês",
-          "price": 15,
+          "price": 20,
           "details": "Spotify Premium por 1 mês, só paga uma vez por mês.",
           "important": "Adquira o spotify premium de 1 mês e curta as melhores musicas."
         },
