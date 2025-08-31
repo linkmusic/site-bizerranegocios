@@ -581,6 +581,21 @@
           "important": "Curtidas 100% Brasileira"
         }
       ]
+    },
+    {
+      "id": 29,
+      "name": "Canva Pro",
+      "icon": "fas fa-tv",
+      "category": "Gravação e Edição",
+      "description": "Canva Pro abaixo do preço",
+      "variations": [
+        {
+          "name": "1 Mês de Canva Pro",
+          "price": 20,
+          "details": "Canva Pro 1 Mês, abaixo do preço oficial, adiquira e fique um mês com Canva Pro, tudo liberado.",
+          "important": "Canva Pro 1 Mês, paga uma vez por mês."
+        }
+      ]
     }
   ]
 }
