@@ -319,21 +319,6 @@
       ]
     },
     {
-      "id": 16,
-      "name": "Membros para Telegram",
-      "icon": "fab fa-telegram",
-      "category": "Marketing Digital",
-      "description": "Aumente o número de membros em grupos ou canais do Telegram.",
-      "variations": [
-        {
-          "name": "1.000 Membros",
-          "price": 35,
-          "details": "Pacote com 1.000 novos membros para seu grupo ou canal.",
-          "important": "A entrega é concluída em até 48 horas."
-        }
-      ]
-    },
-    {
       "id": 17,
       "name": "Seguidores para Instagram (Contas Reais Brasileiras)",
       "icon": "fab fa-instagram",
